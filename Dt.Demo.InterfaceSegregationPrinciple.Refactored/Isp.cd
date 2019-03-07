@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dt.Demo.InterfaceSegregationPrinciple.Refactored.Book">
+    <Position X="1.25" Y="6" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAEABEAggAIAAAAgAAAAAGAAAAAAAAAAAAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dt.Demo.InterfaceSegregationPrinciple.Refactored.ReferenceBook" Collapsed="true">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAggAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReferenceBook.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Dt.Demo.InterfaceSegregationPrinciple.Refactored.IBorrowableBook">
+    <Position X="1.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAEABAAAAAIAAAAgAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBorrowableBook.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dt.Demo.InterfaceSegregationPrinciple.Refactored.ILibraryItem">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILibraryItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dt.Demo.InterfaceSegregationPrinciple.Refactored.IBook">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBook.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
